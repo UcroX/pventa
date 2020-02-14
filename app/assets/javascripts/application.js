@@ -32,3 +32,10 @@ $(document).on("turbolinks:load",function(){
     e.preventDefault();
   });
 });
+
+// funcionalidad de desplegar el btn buscar
+$(document).ready(function(){
+  $('.signIn').click(function(){
+    $('.fold').toggleClass('active')
+  });
+});

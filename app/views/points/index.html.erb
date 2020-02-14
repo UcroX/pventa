@@ -22,13 +22,15 @@
             <% end %>
           <% end %>
         </div>
-      <% else %>
-        <video controls="" autoplay>
-          <source src="video/Video_Record.mp4" type="video/mp4">
-            Your browser does not support HTML5 video.
-        </video>
       <% end %>
     </div>
-
   </div>
+  <% unless signed_in? %>
+  <section>
+    <video id="slider" autoplay muted loop>
+      <source src="video/Video_Record.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    </section>
+    <% end %>
 </div>
