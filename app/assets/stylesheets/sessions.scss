@@ -2,7 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
 .contenedor {
   position: absolute;
   top: 50%;
@@ -20,6 +19,7 @@
   height: 50%;
   background: rgba(207, 15, 15, 0.6);
   color: #ffffff;
+  text-transform: uppercase;
   text-align: center;
   line-height: 50px;
   font-size: 20px;
@@ -35,7 +35,7 @@
     padding: 30px 20px;
     box-sizing: border-box;
     transition: .5s;
-    transform: perspective(2000px) rotateX(0deg); //rotateX(90deg)
+    transform: perspective(2000px) rotateX(90deg); //rotateX(90deg)
 }
 
 .fold.active {
@@ -51,6 +51,7 @@
   border-radius: 40px;
   box-shadow: none;
   outline: none;
+  font-size: 14px;
   color: #fff;
   background: transparent;
   border: 1px solid #525151;
@@ -58,7 +59,9 @@
 }
 
 ::placeholder {
-  color: #fff;
+  color: #d0c8c8;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 .fold form input[type="submit"] {
@@ -70,6 +73,8 @@
   outline: none;
   cursor: pointer;
   background: rgba(198, 0, 0, 0.29);
+  font-size: 16px;
+  text-transform: uppercase;
   color: #fff;
   box-shadow: 0 5px 10px rgba(255, 252, 252, 0.09);
 }
@@ -78,12 +83,12 @@
   background: #bf2424;
 }
 
-// .fold form a {
-//   color: #fff;
-//   margin-top: 20px;
-//   display: block;
-//   font-size: 14px;
-//   text-align: right;
-//   text-decoration: none;
-//   font-weight: bold;
-// }
+.fold form a {
+  color: #fff;
+  margin-top: 20px;
+  display: block;
+  font-size: 18px;
+  text-align: right;
+  text-decoration: none;
+  font-weight: bold;
+}
