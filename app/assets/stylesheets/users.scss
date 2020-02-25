@@ -1,17 +1,7 @@
+
 // Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-.contenedor {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 400px;
-  border-radius: 5px;
-  box-sizing: border-box;
-  overflow: hidden;
-}
 
 .newUs {
   position: relative;
@@ -75,4 +65,14 @@
 
 .fold2 form input[type="submit"]:hover {
   background: #bf2424;
+}
+
+.fold2 form a {
+  color: #fff;
+  margin-top: 20px;
+  display: block;
+  font-size: 18px;
+  text-align: right;
+  text-decoration: none;
+  font-weight: bold;
 }
