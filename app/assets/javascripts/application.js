@@ -34,7 +34,7 @@ $(document).on("turbolinks:load",function(){
 });
 
 // funcionalidad de desplegar el btn buscar
-$(document).ready(function(){
+$(document).on("turbolinks:load",function(){
   $('.signIn').click(function(){
     $('.fold').toggleClass('active')
   });
