@@ -6,6 +6,13 @@
 @import "zones";
 @import "sessions";
 @import "users";
+@import "reforms";
+@import "modifications";
+@import "unities";
+@import "tasks";
+@import "activities";
+@import "actives";
+@import "devices";
 
 /* Se configura para que exista un margen superior de 50px */
 body {
@@ -25,3 +32,12 @@ body {
     left: 100%;
     margin-top: -1px;
 }
+
+.icons {
+  a {
+    color: red;
+    font-size: 16px;
+
+  &:hover { color: #2EFE64; }
+    }
+  }
