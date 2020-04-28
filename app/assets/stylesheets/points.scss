@@ -85,16 +85,16 @@
   padding: 5px 20px;
   box-sizing: border-box;
   border-radius: 10px;
-  box-shadow: none;
+  // box-shadow: none;
   outline: none;
-  color: #fff;
-  background: transparent;
+  color: #000;
+  // background: transparent;
   border: 1px solid #525151;
-  box-shadow: 0 5px 10px rgba(255, 252, 252, 0.09);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 ::placeholder {
-  color: #fff;
+  color: #000;
 }
 
 .fondo_form form input[type="submit"] {
